@@ -4,7 +4,7 @@ const router = express.Router();
 import { register } from "../controllers/user.js";
 import { login } from "../controllers/user.js";
 
-//api/user/XYZ
+//api/user/xyz
 router.route("/register").post(register);
 router.route("/login").post(login);
 
